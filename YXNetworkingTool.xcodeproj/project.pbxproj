@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754967CC1DB45B7A006A8FB2 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967BA1DB45B7A006A8FB2 /* JSONModel.m */; };
+		754967CD1DB45B7A006A8FB2 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967BC1DB45B7A006A8FB2 /* JSONModelClassProperty.m */; };
+		754967CE1DB45B7A006A8FB2 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967BE1DB45B7A006A8FB2 /* JSONModelError.m */; };
+		754967CF1DB45B7A006A8FB2 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967C21DB45B7A006A8FB2 /* JSONAPI.m */; };
+		754967D01DB45B7A006A8FB2 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967C41DB45B7A006A8FB2 /* JSONHTTPClient.m */; };
+		754967D11DB45B7A006A8FB2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967C61DB45B7A006A8FB2 /* JSONModel+networking.m */; };
+		754967D21DB45B7A006A8FB2 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967C91DB45B7A006A8FB2 /* JSONKeyMapper.m */; };
+		754967D31DB45B7A006A8FB2 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967CB1DB45B7A006A8FB2 /* JSONValueTransformer.m */; };
+		754967D61DB45D99006A8FB2 /* CityHomeKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967D51DB45D99006A8FB2 /* CityHomeKey.m */; };
+		754967D91DB45E0A006A8FB2 /* CityList.m in Sources */ = {isa = PBXBuildFile; fileRef = 754967D81DB45E0A006A8FB2 /* CityList.m */; };
+		75AE71111DB0862800CBE66B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71101DB0862800CBE66B /* main.m */; };
+		75AE71141DB0862800CBE66B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71131DB0862800CBE66B /* AppDelegate.m */; };
+		75AE71171DB0862800CBE66B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71161DB0862800CBE66B /* ViewController.m */; };
+		75AE711A1DB0862800CBE66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AE71181DB0862800CBE66B /* Main.storyboard */; };
+		75AE711C1DB0862800CBE66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AE711B1DB0862800CBE66B /* Assets.xcassets */; };
+		75AE711F1DB0862800CBE66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AE711D1DB0862800CBE66B /* LaunchScreen.storyboard */; };
+		75AE712A1DB0862800CBE66B /* YXNetworkingToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71291DB0862800CBE66B /* YXNetworkingToolTests.m */; };
+		75AE71351DB0862800CBE66B /* YXNetworkingToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71341DB0862800CBE66B /* YXNetworkingToolUITests.m */; };
+		75AE71481DB0897F00CBE66B /* YXNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71471DB0897F00CBE66B /* YXNetworkManager.m */; };
+		75AE714B1DB089B000CBE66B /* YXNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE714A1DB089B000CBE66B /* YXNetworkOperation.m */; };
+		75AE714E1DB089F600CBE66B /* YXNetworkUploadOpeartion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE714D1DB089F600CBE66B /* YXNetworkUploadOpeartion.m */; };
+		75AE71511DB08A1000CBE66B /* YXNetworkUploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE71501DB08A1000CBE66B /* YXNetworkUploadParam.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75AE71261DB0862800CBE66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AE71041DB0862700CBE66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AE710B1DB0862800CBE66B;
+			remoteInfo = YXNetworkingTool;
+		};
+		75AE71311DB0862800CBE66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AE71041DB0862700CBE66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AE710B1DB0862800CBE66B;
+			remoteInfo = YXNetworkingTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		754967B91DB45B7A006A8FB2 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		754967BA1DB45B7A006A8FB2 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		754967BB1DB45B7A006A8FB2 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		754967BC1DB45B7A006A8FB2 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		754967BD1DB45B7A006A8FB2 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		754967BE1DB45B7A006A8FB2 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		754967BF1DB45B7A006A8FB2 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		754967C11DB45B7A006A8FB2 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		754967C21DB45B7A006A8FB2 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		754967C31DB45B7A006A8FB2 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		754967C41DB45B7A006A8FB2 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		754967C51DB45B7A006A8FB2 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		754967C61DB45B7A006A8FB2 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		754967C81DB45B7A006A8FB2 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		754967C91DB45B7A006A8FB2 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		754967CA1DB45B7A006A8FB2 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		754967CB1DB45B7A006A8FB2 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		754967D41DB45D99006A8FB2 /* CityHomeKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityHomeKey.h; sourceTree = "<group>"; };
+		754967D51DB45D99006A8FB2 /* CityHomeKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityHomeKey.m; sourceTree = "<group>"; };
+		754967D71DB45E0A006A8FB2 /* CityList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityList.h; sourceTree = "<group>"; };
+		754967D81DB45E0A006A8FB2 /* CityList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityList.m; sourceTree = "<group>"; };
+		75AE710C1DB0862800CBE66B /* YXNetworkingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXNetworkingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AE71101DB0862800CBE66B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75AE71121DB0862800CBE66B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75AE71131DB0862800CBE66B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75AE71151DB0862800CBE66B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75AE71161DB0862800CBE66B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75AE71191DB0862800CBE66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75AE711B1DB0862800CBE66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75AE711E1DB0862800CBE66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75AE71201DB0862800CBE66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AE71251DB0862800CBE66B /* YXNetworkingToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXNetworkingToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AE71291DB0862800CBE66B /* YXNetworkingToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNetworkingToolTests.m; sourceTree = "<group>"; };
+		75AE712B1DB0862800CBE66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AE71301DB0862800CBE66B /* YXNetworkingToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXNetworkingToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AE71341DB0862800CBE66B /* YXNetworkingToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXNetworkingToolUITests.m; sourceTree = "<group>"; };
+		75AE71361DB0862800CBE66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AE71441DB0874000CBE66B /* YXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworking.h; sourceTree = "<group>"; };
+		75AE71451DB0875400CBE66B /* YXNetworkDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXNetworkDefine.h; sourceTree = "<group>"; };
+		75AE71461DB0897F00CBE66B /* YXNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworkManager.h; sourceTree = "<group>"; };
+		75AE71471DB0897F00CBE66B /* YXNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworkManager.m; sourceTree = "<group>"; };
+		75AE71491DB089B000CBE66B /* YXNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworkOperation.h; sourceTree = "<group>"; };
+		75AE714A1DB089B000CBE66B /* YXNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworkOperation.m; sourceTree = "<group>"; };
+		75AE714C1DB089F600CBE66B /* YXNetworkUploadOpeartion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworkUploadOpeartion.h; sourceTree = "<group>"; };
+		75AE714D1DB089F600CBE66B /* YXNetworkUploadOpeartion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworkUploadOpeartion.m; sourceTree = "<group>"; };
+		75AE714F1DB08A1000CBE66B /* YXNetworkUploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworkUploadParam.h; sourceTree = "<group>"; };
+		75AE71501DB08A1000CBE66B /* YXNetworkUploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworkUploadParam.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75AE71091DB0862800CBE66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE71221DB0862800CBE66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE712D1DB0862800CBE66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754967B71DB45B7A006A8FB2 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				754967B81DB45B7A006A8FB2 /* JSONModel */,
+				754967BF1DB45B7A006A8FB2 /* JSONModelLib.h */,
+				754967C01DB45B7A006A8FB2 /* JSONModelNetworking */,
+				754967C71DB45B7A006A8FB2 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		754967B81DB45B7A006A8FB2 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				754967B91DB45B7A006A8FB2 /* JSONModel.h */,
+				754967BA1DB45B7A006A8FB2 /* JSONModel.m */,
+				754967BB1DB45B7A006A8FB2 /* JSONModelClassProperty.h */,
+				754967BC1DB45B7A006A8FB2 /* JSONModelClassProperty.m */,
+				754967BD1DB45B7A006A8FB2 /* JSONModelError.h */,
+				754967BE1DB45B7A006A8FB2 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		754967C01DB45B7A006A8FB2 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				754967C11DB45B7A006A8FB2 /* JSONAPI.h */,
+				754967C21DB45B7A006A8FB2 /* JSONAPI.m */,
+				754967C31DB45B7A006A8FB2 /* JSONHTTPClient.h */,
+				754967C41DB45B7A006A8FB2 /* JSONHTTPClient.m */,
+				754967C51DB45B7A006A8FB2 /* JSONModel+networking.h */,
+				754967C61DB45B7A006A8FB2 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		754967C71DB45B7A006A8FB2 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				754967C81DB45B7A006A8FB2 /* JSONKeyMapper.h */,
+				754967C91DB45B7A006A8FB2 /* JSONKeyMapper.m */,
+				754967CA1DB45B7A006A8FB2 /* JSONValueTransformer.h */,
+				754967CB1DB45B7A006A8FB2 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		75AE71031DB0862700CBE66B = {
+			isa = PBXGroup;
+			children = (
+				75AE710E1DB0862800CBE66B /* YXNetworkingTool */,
+				75AE71281DB0862800CBE66B /* YXNetworkingToolTests */,
+				75AE71331DB0862800CBE66B /* YXNetworkingToolUITests */,
+				75AE710D1DB0862800CBE66B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AE710D1DB0862800CBE66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AE710C1DB0862800CBE66B /* YXNetworkingTool.app */,
+				75AE71251DB0862800CBE66B /* YXNetworkingToolTests.xctest */,
+				75AE71301DB0862800CBE66B /* YXNetworkingToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AE710E1DB0862800CBE66B /* YXNetworkingTool */ = {
+			isa = PBXGroup;
+			children = (
+				754967B71DB45B7A006A8FB2 /* JSONModel */,
+				75AE71431DB0874000CBE66B /* YXNetworking */,
+				75AE71121DB0862800CBE66B /* AppDelegate.h */,
+				75AE71131DB0862800CBE66B /* AppDelegate.m */,
+				75AE71151DB0862800CBE66B /* ViewController.h */,
+				75AE71161DB0862800CBE66B /* ViewController.m */,
+				75AE71181DB0862800CBE66B /* Main.storyboard */,
+				75AE711B1DB0862800CBE66B /* Assets.xcassets */,
+				75AE711D1DB0862800CBE66B /* LaunchScreen.storyboard */,
+				75AE71201DB0862800CBE66B /* Info.plist */,
+				75AE710F1DB0862800CBE66B /* Supporting Files */,
+				754967D41DB45D99006A8FB2 /* CityHomeKey.h */,
+				754967D51DB45D99006A8FB2 /* CityHomeKey.m */,
+				754967D71DB45E0A006A8FB2 /* CityList.h */,
+				754967D81DB45E0A006A8FB2 /* CityList.m */,
+			);
+			path = YXNetworkingTool;
+			sourceTree = "<group>";
+		};
+		75AE710F1DB0862800CBE66B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AE71101DB0862800CBE66B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75AE71281DB0862800CBE66B /* YXNetworkingToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				75AE71291DB0862800CBE66B /* YXNetworkingToolTests.m */,
+				75AE712B1DB0862800CBE66B /* Info.plist */,
+			);
+			path = YXNetworkingToolTests;
+			sourceTree = "<group>";
+		};
+		75AE71331DB0862800CBE66B /* YXNetworkingToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75AE71341DB0862800CBE66B /* YXNetworkingToolUITests.m */,
+				75AE71361DB0862800CBE66B /* Info.plist */,
+			);
+			path = YXNetworkingToolUITests;
+			sourceTree = "<group>";
+		};
+		75AE71431DB0874000CBE66B /* YXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				75AE71441DB0874000CBE66B /* YXNetworking.h */,
+				75AE71451DB0875400CBE66B /* YXNetworkDefine.h */,
+				75AE71461DB0897F00CBE66B /* YXNetworkManager.h */,
+				75AE71471DB0897F00CBE66B /* YXNetworkManager.m */,
+				75AE71491DB089B000CBE66B /* YXNetworkOperation.h */,
+				75AE714A1DB089B000CBE66B /* YXNetworkOperation.m */,
+				75AE714C1DB089F600CBE66B /* YXNetworkUploadOpeartion.h */,
+				75AE714D1DB089F600CBE66B /* YXNetworkUploadOpeartion.m */,
+				75AE714F1DB08A1000CBE66B /* YXNetworkUploadParam.h */,
+				75AE71501DB08A1000CBE66B /* YXNetworkUploadParam.m */,
+			);
+			path = YXNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75AE710B1DB0862800CBE66B /* YXNetworkingTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AE71391DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingTool" */;
+			buildPhases = (
+				75AE71081DB0862800CBE66B /* Sources */,
+				75AE71091DB0862800CBE66B /* Frameworks */,
+				75AE710A1DB0862800CBE66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXNetworkingTool;
+			productName = YXNetworkingTool;
+			productReference = 75AE710C1DB0862800CBE66B /* YXNetworkingTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75AE71241DB0862800CBE66B /* YXNetworkingToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AE713C1DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingToolTests" */;
+			buildPhases = (
+				75AE71211DB0862800CBE66B /* Sources */,
+				75AE71221DB0862800CBE66B /* Frameworks */,
+				75AE71231DB0862800CBE66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75AE71271DB0862800CBE66B /* PBXTargetDependency */,
+			);
+			name = YXNetworkingToolTests;
+			productName = YXNetworkingToolTests;
+			productReference = 75AE71251DB0862800CBE66B /* YXNetworkingToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75AE712F1DB0862800CBE66B /* YXNetworkingToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AE713F1DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingToolUITests" */;
+			buildPhases = (
+				75AE712C1DB0862800CBE66B /* Sources */,
+				75AE712D1DB0862800CBE66B /* Frameworks */,
+				75AE712E1DB0862800CBE66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75AE71321DB0862800CBE66B /* PBXTargetDependency */,
+			);
+			name = YXNetworkingToolUITests;
+			productName = YXNetworkingToolUITests;
+			productReference = 75AE71301DB0862800CBE66B /* YXNetworkingToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AE71041DB0862700CBE66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YX_Rookie;
+				TargetAttributes = {
+					75AE710B1DB0862800CBE66B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					75AE71241DB0862800CBE66B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75AE710B1DB0862800CBE66B;
+					};
+					75AE712F1DB0862800CBE66B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75AE710B1DB0862800CBE66B;
+					};
+				};
+			};
+			buildConfigurationList = 75AE71071DB0862700CBE66B /* Build configuration list for PBXProject "YXNetworkingTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75AE71031DB0862700CBE66B;
+			productRefGroup = 75AE710D1DB0862800CBE66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AE710B1DB0862800CBE66B /* YXNetworkingTool */,
+				75AE71241DB0862800CBE66B /* YXNetworkingToolTests */,
+				75AE712F1DB0862800CBE66B /* YXNetworkingToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AE710A1DB0862800CBE66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AE711F1DB0862800CBE66B /* LaunchScreen.storyboard in Resources */,
+				75AE711C1DB0862800CBE66B /* Assets.xcassets in Resources */,
+				75AE711A1DB0862800CBE66B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE71231DB0862800CBE66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE712E1DB0862800CBE66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75AE71081DB0862800CBE66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754967CC1DB45B7A006A8FB2 /* JSONModel.m in Sources */,
+				75AE71171DB0862800CBE66B /* ViewController.m in Sources */,
+				75AE714B1DB089B000CBE66B /* YXNetworkOperation.m in Sources */,
+				754967CF1DB45B7A006A8FB2 /* JSONAPI.m in Sources */,
+				75AE714E1DB089F600CBE66B /* YXNetworkUploadOpeartion.m in Sources */,
+				754967D31DB45B7A006A8FB2 /* JSONValueTransformer.m in Sources */,
+				754967D91DB45E0A006A8FB2 /* CityList.m in Sources */,
+				75AE71141DB0862800CBE66B /* AppDelegate.m in Sources */,
+				754967D21DB45B7A006A8FB2 /* JSONKeyMapper.m in Sources */,
+				75AE71111DB0862800CBE66B /* main.m in Sources */,
+				75AE71511DB08A1000CBE66B /* YXNetworkUploadParam.m in Sources */,
+				754967D61DB45D99006A8FB2 /* CityHomeKey.m in Sources */,
+				754967CE1DB45B7A006A8FB2 /* JSONModelError.m in Sources */,
+				754967CD1DB45B7A006A8FB2 /* JSONModelClassProperty.m in Sources */,
+				75AE71481DB0897F00CBE66B /* YXNetworkManager.m in Sources */,
+				754967D01DB45B7A006A8FB2 /* JSONHTTPClient.m in Sources */,
+				754967D11DB45B7A006A8FB2 /* JSONModel+networking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE71211DB0862800CBE66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AE712A1DB0862800CBE66B /* YXNetworkingToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AE712C1DB0862800CBE66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AE71351DB0862800CBE66B /* YXNetworkingToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75AE71271DB0862800CBE66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AE710B1DB0862800CBE66B /* YXNetworkingTool */;
+			targetProxy = 75AE71261DB0862800CBE66B /* PBXContainerItemProxy */;
+		};
+		75AE71321DB0862800CBE66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AE710B1DB0862800CBE66B /* YXNetworkingTool */;
+			targetProxy = 75AE71311DB0862800CBE66B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75AE71181DB0862800CBE66B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AE71191DB0862800CBE66B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75AE711D1DB0862800CBE66B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75AE711E1DB0862800CBE66B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75AE71371DB0862800CBE66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75AE71381DB0862800CBE66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75AE713A1DB0862800CBE66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXNetworkingTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75AE713B1DB0862800CBE66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXNetworkingTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75AE713D1DB0862800CBE66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXNetworkingToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXNetworkingTool.app/YXNetworkingTool";
+			};
+			name = Debug;
+		};
+		75AE713E1DB0862800CBE66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXNetworkingToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXNetworkingTool.app/YXNetworkingTool";
+			};
+			name = Release;
+		};
+		75AE71401DB0862800CBE66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXNetworkingToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXNetworkingTool;
+			};
+			name = Debug;
+		};
+		75AE71411DB0862800CBE66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXNetworkingToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookie.YXNetworkingToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXNetworkingTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AE71071DB0862700CBE66B /* Build configuration list for PBXProject "YXNetworkingTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AE71371DB0862800CBE66B /* Debug */,
+				75AE71381DB0862800CBE66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AE71391DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AE713A1DB0862800CBE66B /* Debug */,
+				75AE713B1DB0862800CBE66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AE713C1DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AE713D1DB0862800CBE66B /* Debug */,
+				75AE713E1DB0862800CBE66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AE713F1DB0862800CBE66B /* Build configuration list for PBXNativeTarget "YXNetworkingToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AE71401DB0862800CBE66B /* Debug */,
+				75AE71411DB0862800CBE66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AE71041DB0862700CBE66B /* Project object */;
+}
